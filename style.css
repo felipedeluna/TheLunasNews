@@ -15,8 +15,6 @@ hr.topic{
 div#site{
     margin: auto;
     width: 70vw;
-    padding: 0;
-    border: 0;
 }
 body{
     background-color: rgb(29, 29, 49);
@@ -29,7 +27,7 @@ a:link, a:visited{
 
 header{
     background-color: white;
-    height: 14vh;
+    height: max-content;
     border: 1px solid black;
 }
 h1{
@@ -54,9 +52,7 @@ main{
 }
 section#geral{
     display: block;
-    
     height: 100%;
-    margin-top: 5px;
     padding: 10px;
     background-color: white;
     border: 1px solid black;
@@ -66,7 +62,6 @@ section#geral{
 section#geral_art{
     display: block;
     height: 100%;
-    margin-top: 5px;
     padding: 10px;
     overflow-y: scroll;
     background-color: white;
@@ -76,7 +71,6 @@ section#geral_art{
 section#geral_contato{
     display: block;
     height: 100%;
-    margin-top: 5px;
     padding: 10px;
     overflow-y: scroll;
     background-color: white;
@@ -151,7 +145,6 @@ aside{
     width: 20vw;
     height: 100%;
     float: right;
-    margin-left: 5px;
     background-color: white;
     text-align: justify;
     padding: 0px 15px 20px 10px;
@@ -175,9 +168,9 @@ aside h3{
 footer{
     background-color: white;
     border: 1px solid black;
-    height: 10vh;
-    margin-top: 25px;
-    padding: 5px 5px 5px 5px;
+    height: max-content;
+    position: relative;
+    top: 25px;
     display: block;
 }
 div#rodape{
