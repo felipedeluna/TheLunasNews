@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Entreterimento</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="images/png" href="imgs/LN.png">
+</head>
+<body>
+    <!-- 
+        <header> = Estrutura o cabeçalho da página.
+        <main> = Estrutura o corpo principal da página.
+        <footer> = Estrutura o rodapé da página.
+        <aside> = Estrutura uma barra lateral.
+        <nav> = Navegação (links).
+        <section> = Estrutura uma seção da página.
+        <article> = É usado dentro da section, ela define um artigo na página.
+        <div> = Um container de elementos generico.
+    -->
+
+    <div id="site">
+
+        <header>    
+            <table id="cabeca">
+            <nav>
+                <tr>
+                    <th colspan="4">
+                        <h1 id="titulo_Principal">The <span class="blue">L</span>una's <span class="blue">N</span>ews</h1>
+                    </th>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <h3><a href="index.html">Home</a> | </h3>
+                    </td>
+                    <td>
+                        <h3><a href="not_local.html">Notícias Locais</a> | </h3>
+                    </td>
+                    <td>
+                        <h3><a href="politica.html">Política</a> | </h3>
+                    </td>
+                    <td>
+                        <h3><a href="esportes.html">Esportes</a></h3>
+                    </td>
+                </tr> 
+            </nav>
+            </table>
+            
+        </header>
+        
+        <main>
+            <aside id="especifico">
+                <nav>
+                <h3><a href="#entretenimento_top">Entretenimento</a></h3>
+                    <ul>
+                        <li><a href="#art_1">Novo filme de super-heróis bate recordes de bilheteria no fim de semana de estreia</a></li> <br>
+                        <li><a href="#art_2">Série de televisão ganha popularidade e conquista fãs em todo o mundo</a></li> <br>
+                    </ul>
+                </nav>
+            </aside>
+            <section id="geral">
+                    <h2 id="entretenimento" class="secao">Entretenimento</h2>
+                    <hr id="art_1">
+                    <article>
+                        <h2 >Novo filme de super-heróis bate recordes de bilheteria no fim de semana de estreia</h2>
+                        <p class="artigo">
+                            O aguardado filme de super-heróis, intitulado "O Renascimento dos Heróis", conquistou o público e bateu recordes de bilheteria no fim de semana de estreia. Com uma trama emocionante, efeitos visuais impressionantes e um elenco estelar, o filme atraiu multidões aos cinemas em todo o mundo.
+                        <a href="artigos/entretenimento_1.html">Leia mais</a></p>
+                        <img src="imgs/herois.avif" alt="quadrinhos de super heróis">
+                        <p>Por Emerson Jake - Data de publicação: 28/06/2023</p>
+                    </article>
+                    <hr id="art_2">
+                    <article>
+                        <h2>Série de televisão ganha popularidade e conquista fãs em todo o mundo</h2>
+                        <p class="artigo">
+                            Uma nova série de televisão se tornou um fenômeno cultural e conquistou fãs em todo o mundo. Com uma trama envolvente, personagens cativantes e reviravoltas surpreendentes, a série se tornou o assunto mais comentado nas redes sociais e gerou discussões acaloradas entre os espectadores.
+                        <a href="artigos/entretenimento_2.html">Leia mais</a></p>
+                        <img src="imgs/serie.avif" alt="homem assistindo netflix na televisão">
+                        <p>Por Vagner Silva - Data de publicação: 29/06/2023</p>
+                    </article>
+            </section>
+            
+        </main>
+    
+        <footer>
+            <div id="rodape">
+                
+                <a href="https://web.whatsapp.com/" target="_blank"><img width="32" height="32" src="imgs/whatsapp.png" alt="whatsapp"></a>
+                <a href="https://web.facebook.com/" target="_blank"><img width="32" height="32" src="imgs/facebook.png" alt="facebook"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img width="32" height="32" src="imgs/instagram.png" alt="instagram"></a>
+                <a href="https://www.linkedin.com/in/felipe-colado-de-luna-6ba03124a/" target="_blank"><img width="32" height="32" src="imgs/linkedin.png" alt="linkedin"></a>
+                <p class="contato"><a href="contato.html">#Contato</a></p>
+                <hr>
+                <p>&copy;Todos os direitos reservados, Felipe de Luna</p>
+            </div>
+        </footer>
+    
+    </div>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Notícias Locais</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="images/png" href="imgs/LN.png">
+</head>
+<body>
+    <!-- 
+        <header> = Estrutura o cabeçalho da página.
+        <main> = Estrutura o corpo principal da página.
+        <footer> = Estrutura o rodapé da página.
+        <aside> = Estrutura uma barra lateral.
+        <nav> = Navegação (links).
+        <section> = Estrutura uma seção da página.
+        <article> = É usado dentro da section, ela define um artigo na página.
+        <div> = Um container de elementos generico.
+    -->
+
+    <div id="site">
+
+        <header>    
+            <table id="cabeca">
+            <nav>
+                <tr>
+                    <th colspan="4">
+                        <h1 id="titulo_Principal">The <span class="blue">L</span>una's <span class="blue">N</span>ews</h1>
+                    </th>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <h3><a href="index.html">Home</a> | </h3>
+                    </td>
+                    <td>
+                        <h3><a href="politica.html">Política</a> | </h3>
+                    </td>
+                    <td>
+                        <h3><a href="esportes.html">Esportes</a> | </h3>
+                    </td>
+                    <td>
+                        <h3><a href="entretenimento.html">Entretenimento</a></h3>
+                    </td>
+                </tr> 
+            </nav>
+            </table>
+            
+        </header>
+        
+        <main>
+            <aside id="especifico">
+                <nav>
+                    <h3><a href="#not_local">Notícias Locais</a></h3>
+                    <ul>
+                                <li><a href="#art_1">São Paulo adota medidas para combater o congestionamento urbano</a></li> <br>
+                                <li><a href="#art_2">São Paulo registra aumento no número de ciclistas nas ruas</a></li> <br>
+                                <li><a href="#art_3">Novo centro de empreendedorismo é inaugurado em São Paulo</a></li> <br>
+                    </ul>
+                </nav>
+            </aside>
+            <section id="geral">
+                    <h2 id="not_local" class="secao">Notícias Locais</h2>
+                    <hr id="art_1">
+                    <article>
+                        <h2 >São Paulo adota medidas para combater o congestionamento urbano</h2>
+                        <p class="artigo">
+                            A cidade de São Paulo anunciou hoje um conjunto de medidas para enfrentar o problema recorrente de congestionamento de tráfego. Com o objetivo de melhorar a mobilidade urbana e reduzir o tempo gasto pelos cidadãos no trânsito, as autoridades implementarão uma série de iniciativas inovadoras. <a href="artigos/not_local_1.html">Leia mais</a>
+                        </p>
+                        <img src="imgs/congestionamento urbano.avif" alt="congestionamento urbano">
+                        <p>Por Vagner Silva - Data de publicação: 24/06/2023</p>
+                    </article>
+                    <hr id="art_2">
+                    <article>
+                        <h2 >São Paulo registra aumento no número de ciclistas nas ruas</h2>
+                        <p class="artigo">
+                            Nos últimos meses, a cidade de São Paulo tem observado um aumento significativo no número de ciclistas nas ruas. Essa tendência é resultado de uma série de iniciativas que visam promover o uso da bicicleta como meio de transporte alternativo. <a href="artigos/not_local_2.html">Leia mais</a>
+                        </p>
+                        <img src="imgs/ciclistas nas ruas.avif" alt="ciclistas nas ruas">
+                        <p>Por Vanessa Lopes - Data de publicação: 24/06/2023</p>
+                    </article>
+                    <hr id="art_3">
+                    <article>
+                        <h2 >Novo centro de empreendedorismo é inaugurado em São Paulo</h2>
+                        <p class="artigo">
+                            São Paulo se consolida como um polo de inovação e empreendedorismo com a inauguração do Centro de Empreendedorismo e Inovação, um espaço dedicado ao fomento e apoio a startups e pequenos negócios na cidade.
+                        <a href="artigos/not_local_3.html">Leia mais</a></p>
+                        <img src="imgs/centro de empreendedorismo.jpeg" alt="sala de empreendedorismo">
+                        <p>Por Yuri Guedes - Data de publicação: 25/06/2023</p>
+                    </article>
+            </section>
+            
+        </main>
+    
+        <footer>
+            <div id="rodape">
+                
+                <a href="https://web.whatsapp.com/" target="_blank"><img width="32" height="32" src="imgs/whatsapp.png" alt="whatsapp"></a>
+                <a href="https://web.facebook.com/" target="_blank"><img width="32" height="32" src="imgs/facebook.png" alt="facebook"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img width="32" height="32" src="imgs/instagram.png" alt="instagram"></a>
+                <a href="https://www.linkedin.com/in/felipe-colado-de-luna-6ba03124a/" target="_blank"><img width="32" height="32" src="imgs/linkedin.png" alt="linkedin"></a>
+                <p class="contato"><a href="contato.html">#Contato</a></p>
+                <hr>
+                <p>&copy;Todos os direitos reservados, Felipe de Luna</p>
+            </div>
+        </footer>
+    
+    </div>
+</body>
+</html>

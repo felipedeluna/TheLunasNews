@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Esportes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="images/png" href="imgs/LN.png">
+</head>
+<body>
+    <!-- 
+        <header> = Estrutura o cabeçalho da página.
+        <main> = Estrutura o corpo principal da página.
+        <footer> = Estrutura o rodapé da página.
+        <aside> = Estrutura uma barra lateral.
+        <nav> = Navegação (links).
+        <section> = Estrutura uma seção da página.
+        <article> = É usado dentro da section, ela define um artigo na página.
+        <div> = Um container de elementos generico.
+    -->
+
+    <div id="site">
+
+        <header>    
+            <table id="cabeca">
+            <nav>
+                <tr>
+                    <th colspan="4">
+                        <h1 id="titulo_Principal">The <span class="blue">L</span>una's <span class="blue">N</span>ews</h1>
+                    </th>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <h3><a href="index.html">Home</a> | </h3>
+                    </td>
+                    <td>
+                        <h3><a href="not_local.html">Notícias Locais</a> | </h3>
+                    </td>
+                    <td>
+                        <h3><a href="politica.html">Política</a> | </h3>
+                    </td>
+                    <td>
+                        <h3><a href="entretenimento.html">Entretenimento</a></h3>
+                    </td>
+                </tr> 
+            </nav>
+            </table>
+            
+        </header>
+        
+        <main>
+            <aside id="especifico">
+                <nav>
+                    <h3><a href="#esportes">Esportes</a></h3>
+                        <ul>
+                            <li><a href="#art_1">Equipe brasileira conquista o ouro no Campeonato Mundial de Vôlei</a></li> <br>
+                            <li><a href="#art_2">São Paulo sediará os Jogos Pan-Americanos de 2027</a></li> <br>
+                            <li><a href="#art_3">Tenista brasileiro alcança as quartas de final de um Grand Slam pela primeira vez</a></li> <br>
+                        </ul>
+                </nav>
+            </aside>
+            <section id="geral">
+                    <h2 id="esportes" class="secao">Esportes</h2>
+                    <hr id="art_1">
+                    <article>
+                        <h2 >Equipe brasileira conquista o ouro no Campeonato Mundial de Vôlei</h2>
+                        <p class="artigo">
+                            A seleção brasileira de vôlei brilhou mais uma vez ao conquistar o título de campeã no Campeonato Mundial de Vôlei, realizado na cidade de Roma, na Itália. Com uma campanha impecável, as jogadoras mostraram todo seu talento e garra em quadra.
+                        <a href="artigos/esportes_1.html">Leia mais</a></p>
+                        <img src="imgs/volei_fem_brasil.jpg" alt="equipe feminina de volei do brasil comemorando">
+                        <p>Por Jorge Medeiro - Data de publicação: 26/06/2023</p>
+                    </article>
+                    <hr id="art_2">
+                    <article>
+                        <h2 >São Paulo sediará os Jogos Pan-Americanos de 2027</h2>
+                        <p class="artigo">
+                            A cidade de São Paulo foi escolhida como sede dos Jogos Pan-Americanos de 2027. A decisão foi anunciada pela Panam Sports, entidade responsável pela organização do evento, e representa um marco importante para o esporte brasileiro.
+                        <a href="artigos/esportes_2.html">Leia mais</a></p>
+                        <img src="imgs/panamericanos.jpg" alt="Atletas com o uniforme do brasil">
+                        <p>Por Emerson Jake - Data de publicação: 27/06/2023</p>
+                    </article>
+                    <hr id="art_3">
+                    <article>
+                        <h2 >Tenista brasileira alcança as quartas de final de um Grand Slam pela primeira vez</h2>
+                        <p class="artigo">
+                            O tênis brasileiro celebra uma conquista histórica com a performance excepcional da tenista brasileira Ana Silva, que alcançou as quartas de final de um Grand Slam pela primeira vez em sua carreira.
+                        <a href="artigos/esportes_3.html">Leia mais</a></p>
+                        <img src="imgs/tenis.avif" alt=" tenista se preparando para sacar">
+                        <p>Por Amelia Albuquerque - Data de publicação: 29/06/2023</p>
+                    </article>
+            </section>
+            
+        </main>
+    
+        <footer>
+            <div id="rodape">
+                
+                <a href="https://web.whatsapp.com/" target="_blank"><img width="32" height="32" src="imgs/whatsapp.png" alt="whatsapp"></a>
+                <a href="https://web.facebook.com/" target="_blank"><img width="32" height="32" src="imgs/facebook.png" alt="facebook"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img width="32" height="32" src="imgs/instagram.png" alt="instagram"></a>
+                <a href="https://www.linkedin.com/in/felipe-colado-de-luna-6ba03124a/" target="_blank"><img width="32" height="32" src="imgs/linkedin.png" alt="linkedin"></a>
+                <p class="contato"><a href="contato.html">#Contato</a></p>
+                <hr>
+                <p>&copy;Todos os direitos reservados, Felipe de Luna</p>
+            </div>
+        </footer>
+    
+    </div>
+</body>
+</html>
